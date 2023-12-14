@@ -2,7 +2,8 @@
 from typing import List
 class Solution:
     def leftRightDifference(self, nums: List[int]) -> List[int]:
-        # how to make the left sum
+        ############################# First approach and it needs to be optimized
+        # For the left sum
         leftSum, rightSum = [], []
         currentleftSum = 0
         ### For the leftSum
