@@ -127,3 +127,14 @@ Each type of linked list offers unique advantages and is suited for different sc
 - **Circular Linked List:**
   - Applications requiring continuous cycling through a set of elements.
   - Implementation of tasks in a circular fashion.
+
+# Custom Data Structures in Python
+
+It's important to note that linked lists, trees, stacks, and queues are not built-in types in Python. While Python provides convenient built-in types like lists and dictionaries, more specialized data structures require custom implementations.
+
+## Implementation Details
+
+When creating your own classes to represent these data structures, you'll need to implement the methods and behaviors associated with them. This includes defining how elements are added, removed, and traversed within the structure. For instance, in the case of a linked list, you need to implement methods for insertion, deletion, and traversal.
+When working with linked lists, trees, stacks, or queues, you'll need to create your own classes and define their specific behaviors.
+
+Understanding the principles of these data structures and how to implement them is crucial for building efficient and tailored solutions in Python.
