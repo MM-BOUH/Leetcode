@@ -8,7 +8,7 @@ class ListNode:
 class Solution:
     def __init__(self):
         self.head = None
-        
+    ### Append   
     def appendAtTheEnd(self, val):
         new_node = ListNode(val)
         if not self.head:
@@ -42,12 +42,14 @@ class Solution:
             current = current.next
         if desired > counter:
             print("the desired position is bigger than the length of the node")
+    
+    
+    ## Traversing
     def traverse(self):
         current = self.head
         while current:
             print(current.val)
             current = current.next
-        
     def firstNode(self):
         print("The first node is: ", self.head.val)     
     def middleNode(self):
