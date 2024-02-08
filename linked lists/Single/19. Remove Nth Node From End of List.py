@@ -5,6 +5,8 @@ class ListNode:
         self.val = val
         self.next = next
 class Solution:
+    ### My approach, it will for some edge cases, but not for this -> head = [1,2,3] and n=1
+    ### Need to use a different approach
     def removeNthFromEnd(self, head: Optional[ListNode], n: int) -> Optional[ListNode]:
         prev = None
         current = head
