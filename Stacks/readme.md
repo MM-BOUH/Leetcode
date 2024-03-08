@@ -1,5 +1,5 @@
 
-# Learning Summary for Today
+# Learning Summary
 
 ## Topics Covered
 
