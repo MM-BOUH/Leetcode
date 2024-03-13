@@ -1,3 +1,4 @@
+from typing import List
 
 class Stack:
     def __init__(self):
