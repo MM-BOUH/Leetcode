@@ -1,5 +1,5 @@
 from typing import List
-
+import re
 class Stack:
     def __init__(self):
         self.stack = []
