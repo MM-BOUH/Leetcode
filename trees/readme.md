@@ -10,13 +10,14 @@ Understanding how to traverse a tree is crucial for manipulating and retrieving 
 - **In-order Traversal**: Visit left subtree, root, right subtree. Used for retrieving sorted data from binary search trees.
 - **Pre-order Traversal**: Visit root, left subtree, right subtree. Useful for copying the tree.
 - **Post-order Traversal**: Visit left subtree, right subtree, root. Used for safely deleting nodes.
+![Tree Traversal Methods](https://media.geeksforgeeks.org/wp-content/uploads/20230623123129/traversal.png "Tree Traversal Methods")
+
 
 ### Types of Trees
 Various trees serve different purposes, mainly in optimizing data access and manipulation:
 - **Binary Trees**: Each node has up to two children.
 - **Binary Search Trees (BST)**: Organizes data in a manner where each node contains a key greater than all keys in its left subtree and less than those in its right subtree.
 - **Balanced Trees** (e.g., AVL Trees, Red-Black Trees): Ensures the tree remains balanced for optimal data access performance.
-![Tree Traversal Methods](https://media.geeksforgeeks.org/wp-content/uploads/20230623123129/traversal.png "Tree Traversal Methods")
 
  
 ### Advanced Tree Structures
