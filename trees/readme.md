@@ -6,10 +6,23 @@ This section provides an overview of tree data structures, an essential concept 
 ## Key Topics
 
 ### Tree Traversal
-Understanding how to traverse a tree is crucial for manipulating and retrieving data stored in tree structures:
-- **In-order Traversal**: Visit left subtree, root, right subtree. Used for retrieving sorted data from binary search trees.
-- **Pre-order Traversal**: Visit root, left subtree, right subtree. Useful for copying the tree.
-- **Post-order Traversal**: Visit left subtree, right subtree, root. Used for safely deleting nodes.
+#### Depth First Search (DFS) in Trees
+
+Depth First Search (DFS) is a traversal approach that can be applied to both trees and graphs. In the context of trees, DFS explores as deep into one branch of the tree as possible before retracting to explore other branches. There are three common DFS methods used in tree traversal:
+
+##### In-order Traversal
+- **Method**: Visit left subtree, root, right subtree.
+- **Usage**: Often used for binary search trees where this method retrieves data in a sorted order.
+
+##### Pre-order Traversal
+- **Method**: Visit root, left subtree, right subtree.
+- **Usage**: Useful for operations like copying the tree, where you need to encounter nodes before their descendants.
+
+##### Post-order Traversal
+- **Method**: Visit left subtree, right subtree, root.
+- **Usage**: Ideal for operations like safely deleting nodes, as it processes children before their corresponding parent nodes.
+
+Each traversal method serves different purposes and can be chosen based on the specific requirements of the operation you need to perform on the tree.
 ![Tree Traversal Methods](https://media.geeksforgeeks.org/wp-content/uploads/20230623123129/traversal.png "Tree Traversal Methods")
 
 
