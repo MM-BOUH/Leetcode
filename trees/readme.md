@@ -5,6 +5,19 @@ This section provides an overview of tree data structures, an essential concept 
 
 ## Key Topics
 
+### Types of Trees
+Various trees serve different purposes, mainly in optimizing data access and manipulation:
+- **General Trees**: a node can have any number of children, from zero (making it a leaf node) to many (more than two).
+- **Binary Trees**: Each node has up to two children.
+- **Binary Search Trees (BST)**: Organizes data in a manner where each node contains a key greater than all keys in its left subtree and less than those in its right subtree.
+- **Balanced Trees** (e.g., AVL Trees, Red-Black Trees): Ensures the tree remains balanced for optimal data access performance.
+
+ 
+### Advanced Tree Structures
+For more complex scenarios, advanced trees can be used:
+- **Segment Trees**: Efficiently answer range queries and update operations on array intervals.
+- **Fenwick Trees (Binary Indexed Trees)**: Provides a way to represent an array of numbers for cumulative frequency tables or prefix sum arrays.
+
 ### Tree Traversal
 #### Depth First Search (DFS) in Trees
 
@@ -26,17 +39,6 @@ Each traversal method serves different purposes and can be chosen based on the s
 ![Tree Traversal Methods](https://media.geeksforgeeks.org/wp-content/uploads/20230623123129/traversal.png "Tree Traversal Methods")
 
 
-### Types of Trees
-Various trees serve different purposes, mainly in optimizing data access and manipulation:
-- **Binary Trees**: Each node has up to two children.
-- **Binary Search Trees (BST)**: Organizes data in a manner where each node contains a key greater than all keys in its left subtree and less than those in its right subtree.
-- **Balanced Trees** (e.g., AVL Trees, Red-Black Trees): Ensures the tree remains balanced for optimal data access performance.
-
- 
-### Advanced Tree Structures
-For more complex scenarios, advanced trees can be used:
-- **Segment Trees**: Efficiently answer range queries and update operations on array intervals.
-- **Fenwick Trees (Binary Indexed Trees)**: Provides a way to represent an array of numbers for cumulative frequency tables or prefix sum arrays.
 
 ## Applications
 Trees are widely used in many applications such as database management, file systems, rendering scenes in computer graphics, and more. Their ability to represent and manage hierarchical data makes them indispensable in advanced algorithms and systems.
@@ -61,7 +63,6 @@ Trees are widely used in many applications such as database management, file sys
 
 
 ## Conclusion
-
 In summary, the landscape of tree data structures encompasses various types of trees, each with its unique characteristics and applications. Binary trees are a fundamental type of tree where each node can have up to two children. When a node has no children, it is referred to as a leaf. Binary search trees (BSTs) are a specialized form of binary trees that maintain a specific order, where the left child of a node contains a value less than its parent, and the right child contains a value greater than its parent. This property makes BSTs exceptionally useful for operations like search, insert, and delete.
 
 Traversal of trees is another critical concept and can be accomplished via Depth First Search (DFS) or Breadth First Search (BFS). DFS includes three primary methods: In-order traversal, which visits nodes in a left-root-right pattern; Pre-order traversal, which visits nodes in a root-left-right pattern; and Post-order traversal, which visits nodes in a left-right-root pattern. These methods allow us to explore the depths of a tree as deeply as possible before backtracking.
